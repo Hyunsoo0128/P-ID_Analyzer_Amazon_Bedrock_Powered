@@ -5,8 +5,8 @@ A high-performance P&ID (Piping and Instrumentation Diagram) analysis solution p
 ## ✨ Key Features
 
 ### 🤖 Multi-Model Support
-- **Claude Models**: 3.5 Sonnet, 3.5 Haiku, 3 Sonnet
-- **Amazon Nova Models**: Nova Pro, Nova Lite, Nova Premier
+- **Claude Models**: 3.5 Sonnet, 3 Sonnet, 3 Haiku
+- **Amazon Nova Models**: Nova Premier, Nova Pro, Nova Lite
 - **Auto-compatibility**: Automatic API format conversion between models
 
 ### 🏗️ Hierarchical Pipeline Architecture
@@ -240,10 +240,6 @@ python -m pytest tests/
 black pnid_analyzer.py streamlit_app.py
 ```
 
-## 📝 License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
 ## 🔗 References
 
 - [ISA S5.1 Standard](https://www.isa.org/standards-and-publications/isa-standards/isa-standards-committees/isa5)
@@ -257,7 +253,4 @@ Senior GenAI Specialist Solutions Architect
 Amazon Web Services (AWS)
 
 ---
-
-**Version**: 1.0.0  
-**Status**: ✅ Production Ready  
-**Last Updated**: August 2025
+**Last Updated**: August 18th 2025
